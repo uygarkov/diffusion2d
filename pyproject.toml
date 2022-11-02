@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uygarkov"
+description = "2D solver for diffusion equations"
+readme = "README.md"
+version = "0.0.2"
+requires-python = ">=3.6"
+keywords = ["keyword1", "keyword2"]
+license = {text = "BSD License"}
+dependencies = []

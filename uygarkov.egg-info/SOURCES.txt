@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+uygarkov/__init__.py
+uygarkov/diffusion2d.py
+uygarkov/output.py
+uygarkov.egg-info/PKG-INFO
+uygarkov.egg-info/SOURCES.txt
+uygarkov.egg-info/dependency_links.txt
+uygarkov.egg-info/top_level.txt
