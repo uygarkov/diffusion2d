@@ -33,7 +33,9 @@ u0 = T_cold * np.ones((nx, ny))
 u = u0.copy()
 
 # Initial conditions - circle of radius r centred at (cx,cy) (mm)
-r, cx, cy = 2, 5, 5
+r = min(h, w) / 4.0
+cx = w / 2.0
+cy = h / 2.0
 r2 = r ** 2
 for i in range(nx):
     for j in range(ny):
