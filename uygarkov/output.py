@@ -20,11 +20,3 @@ def create_plot(u0, u, D, dt, dx2, dy2, T_hot, T_cold, fig_counter):
     im = ax.imshow(u.copy(), cmap=plt.get_cmap('hot'), vmin=T_cold, vmax=T_hot)  # image for color bar axes
     return ax, im
 
-
-
-
-
-
-
-
-
