@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from .output import output_plots, create_plot
 
-def solve(dx,dy,D):
+def solve(dx = 0.1,dy = 0.1 ,D = 1):
     # plate size, mm
     w = h = 10.
     # intervals in x-, y- directions, mm
